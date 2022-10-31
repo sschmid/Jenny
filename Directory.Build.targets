@@ -4,12 +4,12 @@
     <Authors>Simon Schmid</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageProjectUrl>https://github.com/sschmid/DesperateDevs</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/sschmid/Jenny</PackageProjectUrl>
     <Company>Desperate Devs</Company>
     <Description>$(AssemblyName)</Description>
     <Copyright>Simon Schmid</Copyright>
-    <PackageTags>DesperateDevs, Desperate, Devs</PackageTags>
-    <RepositoryUrl>https://github.com/sschmid/DesperateDevs</RepositoryUrl>
+    <PackageTags>Jenny, CodeGen, CodeGeneration, DesperateDevs, Desperate, Devs</PackageTags>
+    <RepositoryUrl>https://github.com/sschmid/Jenny</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 

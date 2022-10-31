@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(DefaultTargetFramework)</TargetFramework>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Jenny.Generator/Jenny.Generator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="$(UnityEditor)" />
+    <Reference Include="$(UnityEngine)" />
+  </ItemGroup>
+
+</Project>

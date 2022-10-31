@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Solution
+obj
+bin
+*.userprefs
+*.user
+TestResults
+
+# IDEs
+.vs
+.vscode
+.idea
+**/Assets/Plugins/Editor/JetBrains
+**/Assets/Plugins/Editor/JetBrains.meta
+
+# Project
+build
+tests/**/fixtures/temp

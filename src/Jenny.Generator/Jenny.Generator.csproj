@@ -8,6 +8,7 @@
   <ItemGroup>
     <PackageReference Include="DesperateDevs.Reflection" Version="1.0.0" />
     <PackageReference Include="DesperateDevs.Serialization" Version="2.0.0" />
+    <PackageReference Include="Sherlog" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>

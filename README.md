@@ -20,6 +20,8 @@
 | Jenny.Plugins.Roslyn         | [![Nuget](https://img.shields.io/nuget/v/Jenny.Plugins.Roslyn)](https://www.nuget.org/packages/Jenny.Plugins.Roslyn)                 |                                                                                                                                                                                                                                                    |
 | Jenny.Plugins.Unity          | [![Nuget](https://img.shields.io/nuget/v/Jenny.Plugins.Unity)](https://www.nuget.org/packages/Jenny.Plugins.Unity)                   | [![openupm](https://img.shields.io/npm/v/com.sschmid.jenny.plugins.unity?label=com.sschmid.jenny.plugins.unity&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.sschmid.jenny.plugins.unity)                            |
 
+Automated Unity Package Releases: https://github.com/sschmid/com.sschmid.jenny
+
 # Maintainer(s)
 [@sschmid on GitHub][github-sschmid] - [@s_schmid on Twitter][twitter-sschmid]
 

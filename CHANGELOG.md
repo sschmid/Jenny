@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### [Jenny/1.0.1] - 2022-11-10
+- Same as Jenny 1.0.0
+
 ### [Jenny.Generator.Cli/1.1.1] - 2022-10-06
 - Make program public static
 
@@ -30,6 +33,7 @@ Please see previous changelog here:
 - https://github.com/sschmid/DesperateDevs/blob/main/CHANGELOG.md
 
 [Unreleased]: https://github.com/sschmid/Jenny/compare/Jenny/1.0.0...HEAD
+[Jenny/1.0.1]: https://github.com/sschmid/Jenny/compare/Jenny/1.0.0...Jenny/1.0.1
 [Jenny/1.0.0]: https://github.com/sschmid/Jenny/releases/tag/Jenny/1.0.0
 [Jenny.Generator/1.0.0]: https://github.com/sschmid/Jenny/releases/tag/Jenny.Generator/1.0.0
 [Jenny.Generator.Cli/1.1.1]: https://github.com/sschmid/Jenny/releases/tag/Jenny.Generator.Cli/1.1.1

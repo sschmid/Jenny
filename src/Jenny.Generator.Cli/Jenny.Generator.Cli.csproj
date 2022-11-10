@@ -3,12 +3,12 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>$(DefaultNetTargetFramework)</TargetFramework>
-    <Version>1.1.1</Version>
+    <Version>1.1.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DesperateDevs.Serialization.Cli.Utils" Version="1.0.1" />
-    <PackageReference Include="TCPeasy" Version="1.0.0" />
+    <PackageReference Include="DesperateDevs.Serialization.Cli.Utils" Version="1.*" />
+    <PackageReference Include="TCPeasy" Version="1.*" />
   </ItemGroup>
 
   <ItemGroup>

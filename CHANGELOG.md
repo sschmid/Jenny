@@ -31,23 +31,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Use version ranges for package references
 
 ### [Jenny/1.0.1] - 2022-11-10
-- Same as Jenny 1.0.0
+Same as Jenny 1.0.0
 
 ### [Jenny.Generator.Cli/1.1.1] - 2022-10-06
+### Changed
 - Make program public static
 
 ### [Jenny.Plugins/1.1.0] - 2022-09-27
+### Added
 - Add ReferenceAssemblyPathsPreProcessor
 
 ### Jenny.Generator.Cli/1.1.0 - 2022-09-26
+### Changed
 - Make program public instead of static
 
 ### [Jenny.Generator.Unity.Editor/1.0.2] - 2022-09-26
+### Fixed
 - Set `minified` and `doubleQuotedValues` in `CodeGeneratorPreferencesWindow`
 - Create `Jenny.properties` with all required keys
 - Refresh configurables after auto import
 
 ### [Jenny.Plugins.Unity/1.0.1] - 2022-09-26
+### Fixed
 - Update jenny standalone checks to test for `Jenny.Generator.Cli` namespace
 
 --------------------------------------------------------------------------------

@@ -445,14 +445,14 @@ namespace Jenny.Generator.Cli
         static string[] GetDuplicates(string[] values)
         {
             var shortNames = values
-                .Select(name => name.ShortTypeName())
+                .Select(name => name.TypeName())
                 .ToArray();
 
             return values
-                .Where(name => shortNames.Count(n => n == name.ShortTypeName()) > 1)
-                .Select(name => name.ShortTypeName())
+                .Where(name => shortNames.Count(n => n == name.TypeName()) > 1)
+                .Select(name => name.TypeName())
                 .Distinct()
-                .OrderBy(name => name.ShortTypeName())
+                .OrderBy(name => name.TypeName())
                 .ToArray();
         }
 

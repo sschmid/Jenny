@@ -10,6 +10,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### [Jenny/1.0.3] - 2022-12-20
+### Added
+- Use `DesperateDevs.Extensions/2.0.0`
+
+### [Jenny.Generator.Cli/1.2.0] - 2022-12-20
+### Added
+- Upgrade to `DesperateDevs.Extensions/2.0.0`
+
+### [Jenny.Generator.Unity.Editor/1.1.0] - 2022-12-20
+### Added
+- Upgrade to `DesperateDevs.Extensions/2.0.0`
+
 ### [Jenny/1.0.2] - 2022-11-10
 ### Changed
 - Use version ranges for package references
@@ -65,7 +77,10 @@ Jenny has been extracted from the [DesperateDevs](https://github.com/sschmid/Des
 Please see previous changelog here:
 - https://github.com/sschmid/DesperateDevs/blob/main/CHANGELOG.md
 
-[Unreleased]: https://github.com/sschmid/Jenny/compare/Jenny/1.0.2...HEAD
+[Unreleased]: https://github.com/sschmid/Jenny/compare/Jenny/1.0.3...HEAD
+[Jenny/1.0.3]: https://github.com/sschmid/Jenny/compare/Jenny/1.0.2...Jenny/1.0.3
+[Jenny.Generator.Cli/1.2.0]: https://github.com/sschmid/Jenny/compare/Jenny/1.0.2...Jenny.Generator.Cli/1.2.0
+[Jenny.Generator.Unity.Editor/1.1.0]: https://github.com/sschmid/Jenny/compare/Jenny/1.0.2...Jenny.Generator.Unity.Editor/1.1.0
 [Jenny/1.0.2]: https://github.com/sschmid/Jenny/compare/Jenny/1.0.1...Jenny/1.0.2
 [Jenny.Generator/1.0.1]: https://github.com/sschmid/Jenny/compare/Jenny/1.0.1...Jenny.Generator/1.0.1
 [Jenny.Generator.Cli/1.1.2]: https://github.com/sschmid/Jenny/compare/Jenny/1.0.1...Jenny.Generator.Cli/1.1.2

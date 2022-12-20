@@ -93,15 +93,15 @@ namespace Jenny.Generator.Cli
         void PrintDuplicates(string[] names)
         {
             var shortNames = names
-                .Select(name => name.ShortTypeName())
+                .Select(name => name.TypeName())
                 .ToArray();
 
             var duplicates = names
-                .Where(name => shortNames.Count(n => n == name.ShortTypeName()) > 1)
-                .OrderBy(name => name.ShortTypeName());
+                .Where(name => shortNames.Count(n => n == name.TypeName()) > 1)
+                .OrderBy(name => name.TypeName());
 
             foreach (var duplicate in duplicates)
-                _logger.Warn($"⚠️  Potential collision detected: {duplicate.ShortTypeName()} -> {duplicate}");
+                _logger.Warn($"⚠️  Potential collision detected: {duplicate.TypeName()} -> {duplicate}");
         }
     }
 }

@@ -168,7 +168,7 @@ namespace Jenny.Generator.Unity.Editor
             }
 
             foreach (var kvp in _defaultProperties.OrderBy(kvp => kvp.Key))
-                preferences[kvp.Key] = EditorGUILayout.TextField(kvp.Key.ShortTypeName().ToSpacedCamelCase(), preferences[kvp.Key]);
+                preferences[kvp.Key] = EditorGUILayout.TextField(kvp.Key.TypeName().ToSpacedCamelCase(), preferences[kvp.Key]);
         }
 
         static void SetTypesAndNames<T>(ICodeGenerationPlugin[] instances, out string[] availableTypes, out string[] availableNames) where T : ICodeGenerationPlugin

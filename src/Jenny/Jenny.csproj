@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>$(DefaultTargetFramework)</TargetFramework>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DesperateDevs.Extensions" Version="1.*" />
+    <PackageReference Include="DesperateDevs.Extensions" Version="2.*" />
   </ItemGroup>
 
 </Project>

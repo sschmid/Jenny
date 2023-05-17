@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DesperateDevs.Extensions" Version="2.*" />
+    <PackageReference Include="DesperateDevs.Extensions" Version="3.*" />
   </ItemGroup>
 
 </Project>
